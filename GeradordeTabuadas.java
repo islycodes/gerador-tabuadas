@@ -27,6 +27,7 @@ public class GeradordeTabuadas {
         //Solicita a entrada para o usuário
         try {String text = JOptionPane.showInputDialog (null, "Digite um número inteiro para obter sua tabuada: ", "Pergunta",
                 JOptionPane.PLAIN_MESSAGE);
+                //Converte de String para int e armazena o valor na variável a
                 a = Integer.parseInt(text);
         } 
         
@@ -46,10 +47,11 @@ public class GeradordeTabuadas {
            saida += (a) + " x " + (i) + " = " + (res) + "\n";
         }
         
+        //Exibe a tabuada
         JOptionPane.showMessageDialog(null, (saida) , "Tabuada",
         JOptionPane.INFORMATION_MESSAGE);
         
-        
+        //Pergunta ao usuário se ele deseja encerrar o programa
         flag = JOptionPane.showConfirmDialog (null, "Deseja sair do programa?", "Selecione uma opção",
                 JOptionPane.YES_NO_OPTION);    
         
