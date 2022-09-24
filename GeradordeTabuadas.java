@@ -27,7 +27,7 @@ public class GeradordeTabuadas {
         //Solicita a entrada para o usuário
         try {String text = JOptionPane.showInputDialog (null, "Digite um número inteiro para obter sua tabuada: ", "Pergunta",
                 JOptionPane.PLAIN_MESSAGE);
-        a = Integer.parseInt(text);
+                a = Integer.parseInt(text);
         } 
         
         //Tratamento de erro, caso o usuário não insira um valor numérico
@@ -37,7 +37,7 @@ public class GeradordeTabuadas {
             
             String text = JOptionPane.showInputDialog (null, "Por favor, Digite um número inteiro.", "Pergunta",
                 JOptionPane.PLAIN_MESSAGE);
-            a = Integer.parseInt(text);
+                a = Integer.parseInt(text);
         }
 
         //Gerando a tabuada
